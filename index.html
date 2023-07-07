@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p>Nicholas Kerriss</p>
+      <h1>Calculadora de Média</h1>
+      <div class="add__elements">
+        <input id="add__input" type="number" placeholder="adicione o número" />
+        <button class="button" id="add__button">Adicionar</button>
+      </div>
+      <div class="calcl__elements">
+        <button class="button" id="calc__button1">Calcular média</button>
+        <button class="button" id="calc__button2">Filtrar pares</button>
+      </div>
+      <div class="result__elements">
+        <h3>Array:</h3>
+        <p id="array-result"></p>
+        <h3>Média:</h3>
+        <p id="media-result"></p>
+        <h3>Números pares:</h3>
+        <p id="pares-result"></p>
+      </div>
+      <div class="delet__array">
+        <button class="button" id="delet__btn">Deletar</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

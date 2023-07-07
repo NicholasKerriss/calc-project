@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  /* border: 2px solid black; */
+  /* margin-left: 500px;
+  margin-right: 500px; */
+  padding: 3px;
+  margin-top: 100px;
+  /* background: rgba(128, 128, 128, 0.269); */
+  border-radius: 6px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add__elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calcl__elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.result__elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.delet__array {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px;
+  transition: 0.4s;
+  border: 1px solid black;
+}
+
+.button:hover {
+  transform: scale(1.02, 1.02);
+  font-weight: bold;
+}
+
+#calc__button1 {
+  margin-right: 12px;
+}
+
+#add__input {
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.result-value {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 50px auto;
+    max-width: 90%;
+  }
+}
